@@ -24,7 +24,6 @@ background-size: cover;
 }
 
 
-
  .guild-inner a{ border-radius: var(--friend-image-radius) !important;}
 .guilds-wrapper .guilds .friends-icon {
     content: "";

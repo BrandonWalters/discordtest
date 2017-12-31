@@ -1,0 +1,46 @@
+//META{"name":"Imperium_Theme","description":"Custom theme by Doom","author":"Doomforger","version":"1"}*//{}
+@import url(https://rawgit.com/Doomforger/DiscordStuff/master/DoomVision.css);
+@import url('https://fonts.googleapis.com/css?family=Rosarivo');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:700');
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:500');
+
+:root {				/*Edit Options Here*/
+	--main-color: #BE6B01; /*General Theme Coloring*/
+	--selected-color: rgba(255, 200, 0, .3); /*Coloring for channel hover and member list */
+	--category-color: #BE6B01;
+	--channel-color: rgb(166,166,166);
+	--chat-color: rgb(200,200,200);
+	--chat-name-color: orange;
+	--memberlistname-color: orange;
+	--memberlistname-size: 15px;
+	--Background-image-source: url(http://wallpaperget.com/images/warhammer-40k-imperial-guard-wallpaper-3.jpg);
+	--background-opacity: 0.3; /*The 'See through' of discord to the background*/
+	--background-brightness: .5;
+	--friend-tab-img: url(https://vignette4.wikia.nocookie.net/warhammer40k/images/9/96/Imperial_Eagle_40k.jpg/revision/latest?cb=20161213085426);
+	--friend-tab-imgsize: 80px 40px ;
+	--image-radius: 13px; /*Radius of chat avatars, i.e: square to round */
+	--chat-font: 'Saira Semi Condensed';
+	--category-font: Rosarivo;
+	--channel-font: 'Saira Semi Condensed';
+}
+
+ /*
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒														    ▒▒
+▒▒  ▒█▀▀▄ █▀▀█ █▀▀█ ▒█▀▄▀█ ▒█░░▒█ ░▀░ █▀▀ ░▀░ █▀▀█ ▒█▄░▒█   ▒▒▒
+▒▒	▒█░▒█ █░░█ █░░█ ▒█▒█▒█ ░▒█▒█░ ▀█▀ ▀▀█ ▀█▀ █░░█ ▒█▒█▒█   ▒▒
+▒▒	▒█▄▄▀ ▀▀▀▀ ▀▀▀▀ ▒█░░▒█ ░░▀▄▀░ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▒█░░▀█   ▒▒▒
+▒▒															▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒  CREDITS           ▒▒▒▒
+▒▒ DOOM / DOOMFORGER ▒▒▒▒
+▒▒ BetterDiscord      ▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒	            Quick Notes for colors:										  ▒▒
+▒▒	rgba(0,0,0,0) is Red, Green Blue, Alpha; Alpha is used for transparency;  ▒▒▒
+▒▒	HSLA can also be used if you wish or just plan rgb()					  ▒▒
+▒▒	#405d8c	Html colors can be easily used too								  ▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+*/
